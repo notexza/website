@@ -1,0 +1,68 @@
+@font-face { 
+    font-family: Gravity-Regular; src: url('../fonts/Gravity-Regular.otf'); 
+}
+
+@font-face { 
+    font-family: 'Segoe'; src: url('../fonts/SegoeUI.ttf');
+}
+
+body {
+    background-image: url("../img/pexels-photo-540518.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1055px;
+    background-position: center;
+
+    font-family: 'Segoe';
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    margin-top: 5%;
+    margin-left: 5%;
+    background: rgba(0,0,0,0);
+    overflow: hidden;
+    height: 100px;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background: rgba(0,0,0,0.05);
+}
+
+.contact {
+    float: right !important;
+    margin-right: 10%;
+}
+
+.homeDiv {
+    font-family: 'Segoe';
+    color: white;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.titleMain {
+    font-family: "Gravity-Regular";
+    letter-spacing: 20px;
+}
+
+.h1 {
+    font-size: 2.5rem;
+}
